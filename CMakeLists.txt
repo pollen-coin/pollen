@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.6)
 
 set(VERSION "0.1")
 # $Format:Packaged from commit %H%nset(COMMIT %h)%nset(REFS "%d")$
+set_property(TARGET daemon PROPERTY OUTPUT_NAME "pollend")
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(CMAKE_CONFIGURATION_TYPES Debug RelWithDebInfo Release CACHE TYPE INTERNAL)
