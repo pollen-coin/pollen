@@ -1,3 +1,5 @@
 language: cpp
-before_install: sudo apt-get install build-essential git cmake libboost-all-dev
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y build-essential git cmake libboost-all-dev
 script: make test-release
