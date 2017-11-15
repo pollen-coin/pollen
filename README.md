@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/seangeiger/pollen.svg?branch=master)](https://travis-ci.org/seangeiger/pollen)
+
 This is the reference code for [CryptoNote](https://cryptonote.org) cryptocurrency protocol.
 
 * Launch your own CryptoNote currency: [CryptoNote Starter](https://cryptonotestarter.org/)
