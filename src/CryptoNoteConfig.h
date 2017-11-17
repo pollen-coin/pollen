@@ -20,7 +20,7 @@ const uint64_t CRYPTONOTE_BLOCK_FUTURE_TIME_LIMIT            = 60 * 60 * 2;
 const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 
 const uint64_t MONEY_SUPPLY                                  = ((uint64_t)(-1));  // ((uint64_t)(-1)) equals to 18446744073709551616 coins
-const uint64_t COIN_SIZE                                     = ((uint64_t)100000000000) // 10^9 = 184M total coins
+const uint64_t COIN_SIZE                                     = ((uint64_t)100000000000); // 10^9 = 184M total coins
 const unsigned EMISSION_SPEED_FACTOR                         = 21;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
@@ -29,7 +29,6 @@ const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 20000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 14;
-const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 const uint64_t MINIMUM_FEE                                   = 1000000000; // .001
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
