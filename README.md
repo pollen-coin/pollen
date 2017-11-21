@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/pollen-coin/pollen.svg?branch=master)](https://travis-ci.org/pollen-coin/pollen)
-# pollen
-pollen is a cryptonote based cryptocurrency.
+# Pollen
+Pollen is a [cryptonote](https://cryptonote.org/) based cryptocurrency. 
+
+Read more at [pollen-coin.org](pollen-coin.org)
 
 ## Building Pollen 
 
@@ -31,9 +33,25 @@ Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may 
 * http://www.cmake.org/
 * http://www.boost.org/
 
-To build, change to a directory where this file is located, and run theas commands: 
+To build, change to a directory where this file is located, and run these commands: 
 ```
 mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
+
+## Running with docker
+
+Dependencies: docker
+
+To build container and source:
+
+`docker build -t pollen .`
+
+To run container:
+
+`docker run -it -v /pollen/chain:/root/.bitpollen -v /pollen/wallet:/wallet -p 31313:31313 pollen`
+
+By default, the container starts the daemon when it runs.  You can adjust the daemon parameters or run other commands by adjusdting the last line of the Dockerfile.
+
+The `-p` flag publishes the P2P port (31313).  You can publish the RPC port by adding `-p 41414:41414`.
