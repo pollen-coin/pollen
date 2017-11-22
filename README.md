@@ -1,12 +1,21 @@
-[![Build Status](https://travis-ci.org/pollen-coin/pollen.svg?branch=master)](https://travis-ci.org/pollen-coin/pollen)
-# Pollen
-Pollen is a [cryptonote](https://cryptonote.org/) based cryptocurrency. 
+# Pollen [![Build Status](https://travis-ci.org/pollen-coin/pollen.svg?branch=master)](https://travis-ci.org/pollen-coin/pollen)
+Pollen is a [cryptonote](https://cryptonote.org/) based cryptocurrency aiming to make secure and private payment processing as easy as possible.
 
-Read more at [pollen-coin.org](pollen-coin.org)
+Read more at [pollencoin.org](pollencoin.org).
 
-## Building Pollen 
+Copyright (c) 2017-2018 The Pollen developers.
 
-### On *nix
+Portions Copyright (c) 2012-2017 The Cryptonote developers.
+
+## About
+
+This repository cotains the source for the node and command line wallet. 
+
+Anyone is welcome to contribute!  Submit changes as pull requests on the master branch.
+
+## Building Pollen From Source 
+
+### On Linux/MacOS
 
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
 
@@ -43,9 +52,11 @@ cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
 
-## Running with docker
+## Building and Running with Docker <img src="https://www.docker.com/sites/default/files/mono_horizontal_large.png" width="100"> 
 
-Dependencies: docker
+Dependencies: Docker
+
+* https://www.docker.com
 
 To build container and source:
 
