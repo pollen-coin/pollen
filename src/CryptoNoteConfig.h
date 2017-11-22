@@ -95,7 +95,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "localhost:31313",
+  "52.24.170.219:31313",
   //"your_seed_ip2.com:31313",
 };
 
