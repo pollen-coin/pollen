@@ -96,7 +96,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "ffffffffffffffff
 
 const std::initializer_list<const char*> SEED_NODES = {
   "52.24.170.219:31313",
-  //"your_seed_ip2.com:31313",
+  "37.139.31.4:31313",
 };
 
 struct CheckpointData {
