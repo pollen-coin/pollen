@@ -64,8 +64,13 @@ To build container and source:
 
 To run container:
 
-`docker run -it -v /pollen/chain:/root/.bitpollen -v /pollen/wallet:/wallet -p 31313:31313 pollen`
+`docker run --name pollen -it -v /pollen/chain:/root/.bitpollen -v /pollen/wallet:/wallet -p 31313:31313 pollen`
+
+To run detached: `docker run --name pollen -itd -v ...`
 
 By default, the container starts the daemon when it runs.  You can adjust the daemon parameters or run other commands by adjusdting the last line of the Dockerfile.
 
 The `-p` flag publishes the P2P port (31313).  You can publish the RPC port by adding `-p 41414:41414`.
+
+To access the running container:
+`docker exec -it pollen bash`
