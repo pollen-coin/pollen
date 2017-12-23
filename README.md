@@ -1,4 +1,4 @@
-# Pollen [![Build Status](https://travis-ci.org/pollen-coin/pollen.svg?branch=master)](https://travis-ci.org/pollen-coin/pollen)
+# Pollen <img src="http://pollencoin.org/img/hivecoin.png" width="70">
 Pollen is a [cryptonote](https://cryptonote.org/) based cryptocurrency aiming to make secure and private payment processing as easy as possible.
 
 Read more at [pollencoin.org](pollencoin.org).
@@ -13,7 +13,7 @@ This repository cotains the source for the node and command line wallet.
 
 Anyone is welcome to contribute!  Submit changes as pull requests on the master branch.
 
-## Building Pollen From Source 
+## Building Pollen From Source [![Build Status](https://travis-ci.org/pollen-coin/pollen.svg?branch=master)](https://travis-ci.org/pollen-coin/pollen)
 
 ### On Linux/MacOS
 
